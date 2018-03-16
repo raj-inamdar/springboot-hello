@@ -17,6 +17,8 @@ build:
       goals: install
       cache_repo: true
       version: 3.5.2
+test-staging:
+  steps:
     - script:
       name: test-staging
       code: |
